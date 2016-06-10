@@ -1,0 +1,18 @@
+//vincular css local externo
+
+<link href="file:///Users/javier/Desktop/prueba.css"
+      rel="stylesheet" type="text/css">
+
+//vincular css externo en un servidor
+
+<link href="http://acme.com/css/prueba.css"
+      rel="stylesheet" type="text/css">
+
+#content 
+{
+  border: 1px solid black;
+  p.info {
+    color: #fff;
+    a { text-decoration:none;}
+  }
+}
